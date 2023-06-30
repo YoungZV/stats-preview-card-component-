@@ -118,7 +118,7 @@ span {
 
 /* MEDIA Q */
 
-@media (min-width:840px) {
+@media (min-width:975px) {
     body {
         display: flex;
         justify-content: center;
@@ -161,6 +161,7 @@ span {
 
     .article__2 {
         padding-top: 0;
+        width: 85%;
     }
 
     /* INFO */
