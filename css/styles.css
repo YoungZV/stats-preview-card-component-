@@ -37,8 +37,21 @@ main {
 
 
 /* Photo */
+
+
 .article {
     padding: 0;
+    height: 100%;
+}
+
+/* .article * {
+    height: 100%;
+} */
+
+.wrapper,
+.picture,
+img {
+    height: 100%;
 }
 
 .picture {
@@ -50,6 +63,8 @@ img {
     opacity: .5;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+
 
 }
 
@@ -118,7 +133,7 @@ span {
 
 /* MEDIA Q */
 
-@media (min-width:975px) {
+@media (min-width:725px) {
     body {
         display: flex;
         justify-content: center;
